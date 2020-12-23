@@ -75,15 +75,15 @@
     margin: 0px auto 30px
 }
 .circle--lamp {
-    background: url(../images/lamp.png) no-repeat center;
+    background: url(https://antonparkhimovich.github.io/lesson_3/images/lamp.png) no-repeat center;
 }
 
 .circle--keyboard {
-    background: url(../images/keyboard.png) no-repeat center;
+    background: url(https://antonparkhimovich.github.io/lesson_3/images/keyboard.png) no-repeat center;
 }
 
 .circle--lightning {
-    background: url(../images/lightning.png) no-repeat center;
+    background: url(https://antonparkhimovich.github.io/lesson_3/images/lightning.png) no-repeat center;
 }
 /*Section content==================================================================
 */
@@ -91,7 +91,7 @@
     width: 1400px;
     padding-bottom: 109px;
     text-align: center; 
-    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(../images/backgroundimage.jpg) no-repeat, center;
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(https://antonparkhimovich.github.io/lesson_3/images/backgroundimage.jpg) no-repeat, center;
     padding-top: 76px;
     padding-bottom: 38px;
     color: #FFFFFF;
@@ -136,7 +136,7 @@
 .social{
     width: 317px;
     height: 23px;
-    background: url(../images/social.png) no-repeat, center;
+    background: url(https://antonparkhimovich.github.io/lesson_3/images/social.png) no-repeat, center;
     margin: 0 auto 18px;   
 }
 .a{
