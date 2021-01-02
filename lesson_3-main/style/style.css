@@ -1,0 +1,189 @@
+ /* Default styles
+ =================================================== */                       
+* { 
+    margin:0;                                       
+    padding:0;
+    outline:none
+}
+.wrap {
+    width: 1400px;
+    margin:0px auto;
+    font-family: Open Sans;
+    box-sizing: border-box;
+}
+/* Header content
+ =================================================== */
+
+.header{
+    position:sticky;
+    top: 0px;
+    width: 1400px;
+    padding-top: 20px;
+    background-color: black;
+}
+.navigation-header{
+    display: inline-block;
+    margin: 0 0 19px 110px;
+    
+}
+.navigation-header__list{
+    display: inline-block;
+    margin: 5px 0 6px 625px;
+
+}
+.navigation-header__list-item{
+    display: inline-block;
+    margin-left: 48px;
+}
+.list-item__link{
+    display: block;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    color:rgba(255, 255, 255, 0.7); 
+}
+.main-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(/images/background/background_main.jpg) no-repeat, center;
+    padding: 109px 111px 0 110px;
+
+}
+
+.main-title{
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #212121;
+    margin-bottom: 25px;
+}
+.line{
+    width: 64px;
+    height: 1px;
+	border: none;
+    border-top: 1px solid #E72424;
+    margin: 0 auto 30px;
+}
+.subtitle{
+    font-family:Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+/* Main content
+ =================================================== */
+
+.main {
+    width: 1400px;
+    padding-bottom: 109px;
+    
+}
+.main-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(/images/background/background_main.jpg) no-repeat, center;
+    padding: 109px 111px 0 110px;
+}
+
+.block{
+    display: inline-block;
+    width: 350px;
+    margin: 0 16px;
+}
+.block-title{
+    margin-bottom: 29px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+.p{
+    font-weight: 400;
+    font-size: 14px;
+    color:#333333;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.circle{
+    border: 1px solid#E72424;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0px auto 30px
+}
+.circle--lamp {
+    background: url(/images/syle/lamp.png) no-repeat center;
+}
+
+.circle--keyboard {
+    background: url(/images/syle/keyboard.png) no-repeat center;
+}
+
+.circle--lightning {
+    background: url(/images/syle/lightning.png) no-repeat center;
+}
+/*Section content==================================================================
+*/
+.section{
+    width: 1400px;
+    padding-bottom: 109px;
+    text-align: center; 
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(/images/background/backgroundimage.jpg) no-repeat, center;
+    padding-top: 76px;
+    padding-bottom: 38px;
+    color: #FFFFFF;
+}
+.title--white{
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+.line--white{
+    border-top: 1px solid #FFFFFF;
+}
+.subtitle-white{
+    display: block;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.ghost-button {
+    display: block;
+    width: 135px;
+    margin: 0 auto;
+    padding-top:  11px;
+    padding-bottom: 11px;
+    color: #FFFFFF;
+    text-align: center;
+    outline:  1px solid #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+/*footer content==================================================================
+*/
+.footer{
+    display: inline-block;
+    width: 1400px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: black;
+}
+.social{
+    display: inline-block;
+    width: 317px;
+    height: 23px;
+    background: url(https://antonparkhimovich.github.io/lesson_3/images/social.png) no-repeat, center;
+    margin: 0 auto 18px;   
+    text-decoration: none;
+}
+.social__item{
+    width: 25px;
+    height: 23px;    
+    margin-left: 15px;
+   
+    
+}
+.adress{
+    font-size: 12px;
+    font-weight:400;
+    color: rgba(255, 255, 255, 0.5);
+}
